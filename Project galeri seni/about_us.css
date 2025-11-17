@@ -1,0 +1,57 @@
+/* About Us page styles */
+:root{
+    --bg-start:#f7f7fb;
+    --bg-end:#eef2ff;
+    --accent:#667eea;
+    --muted:#6c757d;
+    --card-bg:#ffffff;
+    --max-width:980px;
+    --radius:10px;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%; margin:0; font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; -webkit-font-smoothing:antialiased;}
+body{
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color:#222;
+}
+
+/* navbar */
+.navbar{
+    background:#fff;
+    border-bottom:1px solid rgba(0,0,0,0.06);
+    padding:0.6rem 1rem;
+}
+.brand-logo{height:36px; width:auto; margin-right:10px; display:inline-block; vertical-align:middle;}
+.navbar .brand-text{font-weight:700; color:var(--accent); font-size:18px; vertical-align:middle;}
+
+/* hero / content wrapper */
+.hero{padding:48px 16px;}
+.content{
+    max-width:var(--max-width);
+    margin:0 auto;
+    background:var(--card-bg);
+    padding:28px;
+    border-radius:var(--radius);
+    box-shadow:0 10px 30px rgba(20,20,50,0.06);
+    line-height:1.7;
+    color:#2b2b2b;
+}
+.content h1{margin:0 0 12px 0; font-size:26px; color:var(--accent); font-weight:700;}
+.content p{margin:0 0 12px 0; font-size:15.5px; color:#333;}
+
+/* small helpers */
+.container{padding-left:16px; padding-right:16px;}
+.actions{margin-top:14px;}
+.btn-outline-primary{border-color:var(--accent); color:var(--accent); background:transparent; padding:6px 10px; border-radius:6px; text-decoration:none;}
+.btn-outline-primary:hover{background:var(--accent); color:#fff;}
+
+/* footer */
+footer{padding:18px 0; margin-top:28px; color:var(--muted); text-align:center;}
+
+/* responsive */
+@media (max-width:768px){
+    .content{padding:18px;}
+    .content h1{font-size:20px;}
+    .brand-logo{height:30px;}
+}

@@ -1,0 +1,95 @@
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    font-family: Segoe UI, Tahoma, Verdana, sans-serif;
+    color: #222;
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-brand {
+    color: #667eea;
+    font-weight: 700;
+}
+
+.navbar-brand img {
+    height: 34px;
+    width: auto;
+    margin-right: 8px;
+}
+
+.hero-section {
+    color: #fff;
+    padding: 28px 20px;
+    text-align: center;
+}
+
+.btn-tambah {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border: none;
+    color: #fff;
+}
+
+.container-gallery {
+    padding: 30px 0;
+}
+
+.card-karya {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    background: #fff;
+}
+
+.img-wrap {
+    height: 200px;
+    overflow: hidden;
+    background: #f4f4f4;
+}
+
+.img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.45s ease;
+    display: block;
+}
+
+.card-karya:hover .img-wrap img {
+    transform: scale(1.04);
+}
+
+.card-body {
+    padding: 14px;
+}
+
+.card-kategori {
+    display: inline-block;
+    background: #667eea;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+.card-harga {
+    color: #667eea;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.actions a {
+    margin-left: 6px;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 18px 0;
+    margin-top: 30px;
+    opacity: 0.9;
+}
